@@ -33,13 +33,13 @@ github "ruby",       "6.3.4"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 # github "xquartz",    "1.1.0"
-#github "evernote"
-#github "opera"
-#github "libreoffice"
-#github "python"
-#github "sublime_text_2"
+github "vagrant", "2.0.7"
 
-include evernote
+github "evernote", "2.0.3", :repo => "jasonamyers/puppet-evernote"
+github "libreoffice", "4.0.4"
+github "vlc", "1.0.0"
+github "heroku", "1.0.0"
+github "virtualbox", "1.0.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
