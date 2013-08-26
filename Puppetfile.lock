@@ -24,6 +24,11 @@ GITHUBTARBALL
     git (1.2.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-heroku
+  specs:
+    heroku (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.4.1)
@@ -34,14 +39,9 @@ GITHUBTARBALL
     hub (1.0.3)
 
 GITHUBTARBALL
-  remote: boxen/puppet-nginx
+  remote: boxen/puppet-libreoffice
   specs:
-    nginx (1.4.2)
-
-GITHUBTARBALL
-  remote: boxen/puppet-nodejs
-  specs:
-    nodejs (3.2.9)
+    libreoffice (4.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -64,9 +64,24 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
+  remote: boxen/puppet-vagrant
   specs:
-    xquartz (1.1.0)
+    vagrant (2.0.7)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vlc
+  specs:
+    vlc (1.0.0)
+
+GITHUBTARBALL
+  remote: jasonamyers/puppet-evernote
+  specs:
+    evernote (2.0.3)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -82,17 +97,20 @@ DEPENDENCIES
   autoconf (= 1.0.0)
   boxen (= 3.0.2)
   dnsmasq (= 1.0.0)
+  evernote (= 2.0.3)
   gcc (= 2.0.1)
   git (= 1.2.5)
+  heroku (= 1.0.0)
   homebrew (= 1.4.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
-  nginx (= 1.4.2)
-  nodejs (= 3.2.9)
+  libreoffice (= 4.0.4)
   openssl (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
-  xquartz (= 1.1.0)
+  vagrant (= 2.0.7)
+  virtualbox (= 1.0.1)
+  vlc (= 1.0.0)
 
