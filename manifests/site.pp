@@ -56,8 +56,15 @@ node default {
   include dnsmasq
   include git
   include hub
-  include nginx
-
+  include opera::next
+  include evernote
+  include libreoffice
+  include vlc
+  include heroku
+  include virtualbox
+  include sublime_text_2
+  include iterm2
+  
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')

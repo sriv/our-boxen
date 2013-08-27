@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-heroku
   specs:
-    heroku (1.0.0)
+    heroku (0.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
@@ -39,14 +39,29 @@ GITHUBTARBALL
     hub (1.0.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (0.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-libreoffice
   specs:
     libreoffice (4.0.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-nodejs
+  specs:
+    nodejs (3.2.9)
+
+GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-opera
+  specs:
+    opera (0.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-repository
@@ -79,6 +94,11 @@ GITHUBTARBALL
     vlc (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.1.0)
+
+GITHUBTARBALL
   remote: jasonamyers/puppet-evernote
   specs:
     evernote (2.0.3)
@@ -100,12 +120,15 @@ DEPENDENCIES
   evernote (= 2.0.3)
   gcc (= 2.0.1)
   git (= 1.2.5)
-  heroku (= 1.0.0)
+  heroku (= 0.0.1)
   homebrew (= 1.4.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
+  iterm2 (= 0.0.1)
   libreoffice (= 4.0.4)
+  nodejs (= 3.2.9)
   openssl (= 1.0.0)
+  opera (= 0.1.0)
   repository (= 2.2.0)
   ruby (= 6.3.4)
   stdlib (= 4.1.0)
@@ -113,4 +136,5 @@ DEPENDENCIES
   vagrant (= 2.0.7)
   virtualbox (= 1.0.1)
   vlc (= 1.0.0)
+  xquartz (= 1.1.0)
 
