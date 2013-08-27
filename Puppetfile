@@ -39,6 +39,9 @@ github "evernote", "2.0.3", :repo => "jasonamyers/puppet-evernote"
 github "libreoffice", "4.0.4"
 github "vlc", "1.0.0"
 github "heroku", "0.0.1"
+
+github "sublime_text_2", "0.0.1"
+
 github "virtualbox", "1.0.1"
 github "opera", "0.1.0"
 github "iterm2", "0.0.1"
