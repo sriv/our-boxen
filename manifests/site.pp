@@ -56,14 +56,14 @@ node default {
   include dnsmasq
   include git
   include hub
-  include opera::next
+  include opera
   include evernote
   include libreoffice
   include vlc
   include heroku
   include virtualbox
   include sublime_text_2
-  include iterm2
+  include iterm2::stable
   
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
