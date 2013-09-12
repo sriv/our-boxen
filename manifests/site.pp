@@ -65,6 +65,7 @@ node default {
   include sublime_text_2
   include iterm2::stable
   include dropbox
+  include firefox
   
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

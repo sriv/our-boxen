@@ -36,7 +36,7 @@ github "xquartz",    "1.1.0"
 github "vagrant", "2.0.7"
 
 github "evernote", "2.0.3", :repo => "jasonamyers/puppet-evernote"
-github "libreoffice", "4.0.4"
+github "libreoffice", "4.1.1"
 github "vlc", "1.0.0"
 github "heroku", "2.0.0"
 
@@ -46,6 +46,7 @@ github "virtualbox", "1.0.1"
 github "opera", "0.2.0"
 github "iterm2", "1.0.3"
 github "dropbox", "1.1.1"
+github "firefox", "1.1.3"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
