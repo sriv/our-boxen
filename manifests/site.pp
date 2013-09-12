@@ -64,6 +64,7 @@ node default {
   include virtualbox
   include sublime_text_2
   include iterm2::stable
+  include dropbox
   
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

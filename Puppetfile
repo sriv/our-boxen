@@ -45,6 +45,7 @@ github "sublime_text_2", "1.1.2"
 github "virtualbox", "1.0.1"
 github "opera", "0.2.0"
 github "iterm2", "1.0.3"
+github "dropbox", "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
