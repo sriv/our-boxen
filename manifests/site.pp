@@ -66,6 +66,7 @@ node default {
   include iterm2::stable
   include dropbox
   include firefox
+  include keepassx
   
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
