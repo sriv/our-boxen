@@ -54,6 +54,11 @@ GITHUBTARBALL
     iterm2 (1.0.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-keepassx
+  specs:
+    keepassx (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-libreoffice
   specs:
     libreoffice (4.1.1)
@@ -106,7 +111,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
-    vlc (1.0.0)
+    vlc (1.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -142,6 +147,7 @@ DEPENDENCIES
   hub (= 1.0.3)
   inifile (= 1.0.0)
   iterm2 (= 1.0.3)
+  keepassx (= 1.0.0)
   libreoffice (= 4.1.1)
   nodejs (= 3.2.9)
   openssl (= 1.0.0)
@@ -153,6 +159,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   vagrant (= 2.0.7)
   virtualbox (= 1.0.1)
-  vlc (= 1.0.0)
+  vlc (= 1.0.4)
   xquartz (= 1.1.0)
 
