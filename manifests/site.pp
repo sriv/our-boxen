@@ -67,6 +67,9 @@ node default {
   include dropbox
   include firefox
   include keepassx
+  include vmware_fusion
+  include alfred
+
   
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {

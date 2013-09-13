@@ -48,6 +48,8 @@ github "iterm2", "1.0.3"
 github "dropbox", "1.1.1"
 github "firefox", "1.1.3"
 github "keepassx", "1.0.0"
+github "vmware_fusion", "1.0.0"
+github "alfred", "1.1.2"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
